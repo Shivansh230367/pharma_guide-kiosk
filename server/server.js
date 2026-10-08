@@ -16,10 +16,8 @@ if (!authSecret) {
 const pool = new Pool({ connectionString: process.env.DATABASE_URL });
 
 app.use(cors({
-  origin: [
-    "http://localhost:5173",
-    "https://pharma-kiosk-1.onrender.com"
-  ]
+  origin: true,
+  credentials: true
 }));
 app.use(express.json());
 
