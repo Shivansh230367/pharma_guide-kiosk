@@ -117,6 +117,15 @@ The public kiosk is read-only and cannot modify inventory.
 
 ---
 
+## Screenshots
+
+<img width="1920" height="921" alt="image" src="https://github.com/user-attachments/assets/23daf7db-8bcb-4318-b2af-ff99ceaf31c8" />
+
+<img width="1920" height="920" alt="image" src="https://github.com/user-attachments/assets/752ecefb-f0aa-450c-8ac8-6bd1aa3c2619" />
+
+<img width="576" height="803" alt="image" src="https://github.com/user-attachments/assets/65fc4d78-37bf-4daf-bf1f-78089269289c" />
+
+---
 ## Database Design
 
 The application uses PostgreSQL to store medicine, composition, inventory,
