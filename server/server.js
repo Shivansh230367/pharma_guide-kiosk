@@ -15,7 +15,12 @@ if (!authSecret) {
 
 const pool = new Pool({ connectionString: process.env.DATABASE_URL });
 
-app.use(cors({ origin: process.env.CLIENT_ORIGIN || "http://localhost:5173" }));
+app.use(cors({
+  origin: [
+    "http://localhost:5173",
+    "https://pharma-kiosk-1.onrender.com"
+  ]
+}));
 app.use(express.json());
 
 const money = (value) => Number(Number(value).toFixed(2));
