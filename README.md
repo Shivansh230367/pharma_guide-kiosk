@@ -285,7 +285,6 @@ DEFAULT_STAFF_PASSWORD=your-password
 
 Use your own secure values.
 
-**Do not commit `.env` files or real credentials to GitHub.**
 
 The repository's `.gitignore` excludes environment files from version
 control.
